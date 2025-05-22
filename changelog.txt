@@ -8,6 +8,8 @@ Date: 22.05.2025
     - removed self-advertisement in Korean locale file
     - added some missing POSIX-compliant new-line character
     - best is to test `script.active_mods["foo"]`` or `mods["foo"]` instead of `foo_something`
+    - naming-convention: `k` for used key in loops, `_` if key is ignored
+    - renamed a few `v` into `entity` as the name fits better
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 27.10.2024
