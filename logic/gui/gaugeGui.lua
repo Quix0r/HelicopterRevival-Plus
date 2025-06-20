@@ -263,7 +263,7 @@ gaugeGui =
 			},
 		}
 
-		for k,v in pairs(pointerNames or {}) do
+		for _, v in pairs(pointerNames or {}) do
 			gauge.pointers[v] = 
 			{
 				root = gauge.elem.add
@@ -275,7 +275,7 @@ gaugeGui =
 			}
 		end
 
-		for k,v in pairs(ledNames or {}) do
+		for _, v in pairs(ledNames or {}) do
 			gauge.leds[v] = {}
 		end
 
